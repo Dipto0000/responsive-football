@@ -45,6 +45,16 @@ Header part
     font-size: 50px;
 }
 
+/*----------------------
+Animation inside header
+------------------------*/
+
+.animated:hover{
+    transform: scale(0.5);
+    transition: transform 2s;
+    cursor: pointer;
+}
+
 /*----------------
 Players info part
 -----------------*/
@@ -67,4 +77,20 @@ Players info part
     margin-left: 180px;
 }
 
+
+/*-----------
+footer part
+------------*/
+footer img{
+    width: 484px;
+    height: 110px;
+}
+.footer-part socials{
+    align-items: center;
+}
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
