@@ -6,6 +6,16 @@ utilities
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    margin-bottom: 70px;
+}
+.btn{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
 /*----------
 Header part
 -----------*/
@@ -34,9 +44,27 @@ Header part
     font-weight: 700;
     font-size: 50px;
 }
-.btn{
-    background-color: #E02C6D;
-    color: white;
-    padding: 10px 25px;
-    text-decoration: none;
+
+/*----------------
+Players info part
+-----------------*/
+.info-card{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0 10px gray;
+
 }
+.infos{
+    padding: 15px;
+}
+.info-card img{
+    width: 100%;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    margin-left: 180px;
+}
+
+
