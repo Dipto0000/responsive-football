@@ -31,7 +31,7 @@ Header part
     left: 150px;
 }
 .header-banner img{
-    Width: 556px;
+    Width: 100%;
     height: 438px;
     position: relative;
     top: 153px;
@@ -119,8 +119,11 @@ media queries
 
 @media (max-width: 688px){
     .header-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .header-container .header-banner img{
+        width: 100%;
+        height: 50%;
     }
     .info-container{
         grid-template-columns: repeat(1, 1fr);
